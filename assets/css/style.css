@@ -3,3 +3,12 @@
     float: left;
     margin: 0 20px 20px 0
 }
+
+.card {
+    float: left;
+    width: 33%;
+}
+
+.card-img-top {
+    height: 200px;
+}

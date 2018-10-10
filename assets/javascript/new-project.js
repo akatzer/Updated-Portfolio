@@ -21,7 +21,7 @@ $(document).ready(function () {
     var imageUrl = childSnapshot.val().imageUrl;
 
 
-var newCard = $("<div class='card' style='width: 18rem;'>").append(
+var newCard = $("<div class='card'>").append(
     $('<img class="card-img-top" src="' + imageUrl + '" alt="Project Image">'),
     
     $('<h5 id="project-name">').text(projectName),
@@ -30,6 +30,12 @@ var newCard = $("<div class='card' style='width: 18rem;'>").append(
 
 $(".newCard").prepend(newCard);
 
+});
+
+$(document).ready(function(){
+    $(function(){
+        $(".card").fadeIn("slow");
+    });  
 });
 
 })
