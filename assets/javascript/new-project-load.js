@@ -25,7 +25,7 @@ var newCard = $("<div class='card'>").append(
     $('<img class="card-img-top" src="' + imageUrl + '" alt="Project Image">'),
     
     $('<h5 id="project-name">').text(projectName),
-    $('<a href="' + gitHubLink + '" class="btn btn-primary">Check it out!</a>')
+    $('<a href="' + gitHubLink + '" class="btn btn-primary" target="_blank">Check it out!</a>')
 )
 
 $(".newCard").prepend(newCard);
