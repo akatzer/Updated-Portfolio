@@ -63,7 +63,7 @@ $(document).ready(function () {
         if (projectName === "" && gitHubLink === ""()) {
         }
         else {
-            database.ref().push(newProject);
+            database.ref("Projects/").push(newProject);
         }
 
         //clears the form out for the next entry

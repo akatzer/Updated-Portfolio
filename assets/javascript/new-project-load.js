@@ -13,7 +13,7 @@ $(document).ready(function () {
     var database = firebase.database();
 
   //creates the snapshot when a new data entry is loaded into firebase
-  database.ref().on("child_added", function (childSnapshot) {
+  database.ref("Projects/").on("child_added", function (childSnapshot) {
 
     //creation of variables based on the snapshot of the database
     var projectName = childSnapshot.val().projectName;
