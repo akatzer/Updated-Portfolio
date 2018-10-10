@@ -6,9 +6,11 @@
 
 .card {
     float: left;
-    width: 33%;
+    width: 370px;
 }
 
 .card-img-top {
     height: 200px;
+    
 }
+
