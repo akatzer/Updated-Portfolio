@@ -49,29 +49,31 @@ $(document).ready(function () {
                     
         event.preventDefault();
         var projectName = $("#projectName").val().trim();
-        var gitHubLink = $("#gitHubLink").val().trim();
+        var gitHubPagesLink = $("#gitHubPagesLink").val().trim();
+        var gitHubRepoLink = $("#gitHubRepoLink").val().trim();
         var imageUrl = $("#imageUrl").text();
 
         //creating the variable object that will push to the database
         var newProject = {
             projectName: projectName,
             imageUrl: imageUrl,
-            gitHubLink: gitHubLink,
+            gitHubPagesLink: gitHubPagesLink,
+            gitHubRepoLink: gitHubRepoLink,
         };
 
         //pushes new input into the database
-        if (projectName === "" && gitHubLink === ""()) {
+        if (projectName === "" && gitHubPagesLink === "" && gitHubRepoLink === ""()) {
         }
         else {
             database.ref("Projects/").push(newProject);
-        }
-
-        //clears the form out for the next entry
+            //clears the form out for the next entry
         $(".form-control").val("");
         $("#fileButton").val("");
         $("#imageUrl").text("");
         $("#uploader").val("0")
-       
+        }
+
+        
     })
 
    

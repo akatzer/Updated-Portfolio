@@ -1,7 +1,7 @@
 .img-fluid {
     max-width: 15%;
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 10px 20px 20px 0;
     min-width: 140px;
 }
 
@@ -10,7 +10,8 @@
     width: 360px;
     padding: 10px;
     margin: 10px;
-    text-align: center
+    text-align: center;
+    background-color: #328284;
 }
 
 .card-img-top {
@@ -18,19 +19,27 @@
     
 }
 
-i.fab.fa-linkedin.fa-lg.nav-link {
-    color: #0077b5;
-    background-color: white;
+i.fab.fa-linkedin.fa-2x.nav-link {
+    color: #333;
+    background-color: #328284;
     margin: 8px;
     padding: 0;
-    
+     
 }
 
-i.fab.fa-github-square.fa-lg.nav-link {
+i.fab.fa-github-square.fa-2x.nav-link {
     color: #333;
-    background-color: white;
+    background-color: #328284;
+    margin: 8px;
+    padding: 0;  
+}
+
+i.fas.fa-envelope-square.fa-2x.nav-link {
+    color: #333;
+    background-color: #328284;
     margin: 8px;
     padding: 0;
+  
 }
 
 nav.navbar {
@@ -38,7 +47,45 @@ nav.navbar {
     
 }
 
-.nav-link {
-    color: white;
+a.nav-link.navbar-light {
+    color: #e9e7e9;
 }
 
+.jumbotron {
+    background-color: #909095;
+    color: #e9e7e9;
+
+    height: 100vh
+    
+    }
+
+.btn-primary {
+    background-color: #4f3558;
+    border-color: #4f3558;
+    margin: 5px;
+    color: #e9e7e9
+}
+
+.navbar-brand {
+    color: #e9e7e9;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #328284;
+    color: white;
+    text-align: center;
+    line-height: 1;
+
+ }
+
+ .container {
+     font-size: x-large;
+     background-color: #909095;
+     margin-bottom: 49px;
+ }
+
+ 
