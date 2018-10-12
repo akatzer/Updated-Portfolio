@@ -1,7 +1,7 @@
 .img-fluid {
     max-width: 15%;
     float: left;
-    margin: 10px 20px 20px 0;
+    margin: 10px 20px 0px 0;
     min-width: 140px;
 }
 
@@ -87,5 +87,6 @@ a.nav-link.navbar-light {
      background-color: #909095;
      margin-bottom: 49px;
  }
+
 
  
