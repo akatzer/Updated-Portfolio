@@ -27,6 +27,10 @@ i.fab.fa-linkedin.fa-2x.nav-link {
      
 }
 
+body {
+    background-color: #909095
+}
+
 i.fab.fa-github-square.fa-2x.nav-link {
     color: #333;
     background-color: #328284;
