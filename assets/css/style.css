@@ -28,7 +28,8 @@ i.fab.fa-linkedin.fa-2x.nav-link {
 }
 
 body {
-    background-color: #909095
+    background-color: #909095;
+   height: 100%
 }
 
 i.fab.fa-github-square.fa-2x.nav-link {
